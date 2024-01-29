@@ -61,9 +61,7 @@ if (isset($_GET['route'])) {
                 <a href="projets" class="single"><?php echo __('projets'); ?></a>
         </li>
 
-        <li class="single-list" <?php if ($activePage === 'contact') echo 'class="active"'; ?>>
-            <a href="contact" class="single">Contact</a>
-        </li>
+
         
     </ul>
 </nav>
