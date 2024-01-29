@@ -32,37 +32,37 @@ if (isset($_GET['route'])) {
 
 <nav>
     <ul class="listing" id="navigation">
-        <li class="single-list" <?php if ($activePage === 'home') echo 'class="active"'; ?>><a class="single" href="index.php?route=home"><?php echo __('home'); ?></a></li>
+        <li class="single-list" <?php if ($activePage === 'home') echo 'class="active"'; ?>><a class="single" href="home"><?php echo __('home'); ?></a></li>
         <li class="single-list" 
         <?php if (in_array($activePage, ['quisommesnous', 'notrehistoire', 'contextenational', 'structuressanitaires', 'notregouvernance', 'partenaires'])) echo 'class="active"'; ?>>
             <a href="javascript:void(0)" class="single"><?php echo __('nd'); ?> <i class="ri-arrow-down-s-line"></i></a>
             <ul class="submenu">
                 <li class="single-list" <?php if ($activePage === 'quisommesnous') echo 'class="active"'; ?>>
-                    <a href="index.php?route=quisommesnous" class="single"><?php echo __('quisommesnous'); ?></a>
+                    <a href="quisommesnous" class="single"><?php echo __('quisommesnous'); ?></a>
                 </li>
                 <li class="single-list" <?php if ($activePage === 'notrehistoire') echo 'class="active"'; ?>>
-                    <a href="index.php?route=notrehistoire" class="single"><?php echo __('notrehistoire'); ?></a>
+                    <a href="notrehistoire" class="single"><?php echo __('notrehistoire'); ?></a>
                 </li>
                 <li class="single-list" <?php if ($activePage === 'contextenational') echo 'class="active"'; ?>>
-                    <a href="index.php?route=contextenational" class="single"><?php echo __('contextenational'); ?></a>
+                    <a href="contextenational" class="single"><?php echo __('contextenational'); ?></a>
                 </li>
                 <li class="single-list" <?php if ($activePage === 'structuressanitaires') echo 'class="active"'; ?>>
-                    <a href="index.php?route=structuressanitaires" class="single"><?php echo __('structuressanitaires'); ?></a>
+                    <a href="structuressanitaires" class="single"><?php echo __('structuressanitaires'); ?></a>
                 </li>
                 <li class="single-list" <?php if ($activePage === 'notregouvernance') echo 'class="active"'; ?>>
-                    <a href="index.php?route=notregouvernance" class="single"><?php echo __('notregouvernance'); ?></a>
+                    <a href="notregouvernance" class="single"><?php echo __('notregouvernance'); ?></a>
                 </li>
                 <li class="single-list" <?php if ($activePage === 'partenaires') echo 'class="active"'; ?>>
-                    <a href="index.php?route=partenaires" class="single"><?php echo __('partenaires'); ?></a>
+                    <a href="partenaires" class="single"><?php echo __('partenaires'); ?></a>
                 </li>
             </ul>
         </li>
         <li class="single-list" <?php if ($activePage === 'projets') echo 'class="active"'; ?>>
-                <a href="index.php?route=projets" class="single"><?php echo __('projets'); ?></a>
+                <a href="projets" class="single"><?php echo __('projets'); ?></a>
         </li>
 
         <li class="single-list" <?php if ($activePage === 'contact') echo 'class="active"'; ?>>
-            <a href="index.php?route=contact" class="single">Contact</a>
+            <a href="contact" class="single">Contact</a>
         </li>
         
     </ul>
