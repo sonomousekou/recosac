@@ -178,7 +178,7 @@
       </section>
       <!-- End-of Breadcrumb Area -->
 
-      
+      <img src="./public/assets/images/about/org.png" alt="" srcset="">
 
 <?php
 $titre = __('notregouvernance');

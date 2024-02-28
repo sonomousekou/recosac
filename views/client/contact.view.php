@@ -67,19 +67,19 @@
                       <div class="col-xl-12">
                         <div class="form-group">
                           <label class="custom-label" for="exampleFormControlInput1"><?php echo __('ch1'); ?></label>
-                          <input type="text" class="form-control custom-input" id="exampleFormControlInput1" name="nom" placeholder="Abraham Sékou SONOMOU">
+                          <input type="text" class="form-control custom-input" id="exampleFormControlInput1" name="nom" placeholder="Entrez votre nom">
                         </div>
                       </div>
                       <div class="col-xl-12">
                         <div class="form-group">
                           <label class="custom-label" for="exampleFormControlInput5"><?php echo __('phone'); ?></label>
-                          <input type="text" class="form-control custom-input" name="phone" id="exampleFormControlInput5" placeholder="+228 70026994">
+                          <input type="text" class="form-control custom-input" name="phone" id="exampleFormControlInput5" placeholder="Entrez votre telephone">
                         </div>
                       </div>
                       <div class="col-xl-12">
                         <div class="form-group">
                           <label class="custom-label" for="exampleFormControlInput2"><?php echo __('ch2'); ?></label>
-                          <input type="email" class="form-control custom-input" id="exampleFormControlInput2" placeholder="sekou@dev.com">
+                          <input type="email" class="form-control custom-input" id="exampleFormControlInput2" placeholder="Entrez votre email">
                         </div>
                       </div>
                     </div>

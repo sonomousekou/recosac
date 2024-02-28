@@ -12,16 +12,16 @@
                     <div class="footer-social-link">
                       <ul class="listing">
                         <li class="single-list">
-                          <a class="single" href="<?php if ($lien_facebook =="") echo "javascript:void(0)"; else echo $lien_facebook; ?>"><i class="ri-facebook-fill"></i></a>
+                          <a class="single" href="<?php if ($lien_facebook =="") echo "javascript:void(0)"; else echo $lien_facebook; ?>" target="<?php if ($lien_facebook =="") echo ""; else echo "_blank";?>"><i class="ri-facebook-fill"></i></a>
                         </li>
                         <li class="single-list">
-                          <a class="single" href="<?php if ($lien_youtube =="") echo "javascript:void(0)"; else echo $lien_youtube; ?> "><i class="ri-youtube-fill"></i></a>
+                          <a class="single" href="<?php if ($lien_youtube =="") echo "javascript:void(0)"; else echo $lien_youtube; ?> " target="<?php if ($lien_youtube =="") echo ""; else echo "_blank";?>"><i class="ri-youtube-fill"></i></a>
                         </li>
                         <li class="single-list">
-                          <a class="single" href="<?php if ($lien_instagram =="") echo "javascript:void(0)"; else echo $lien_instagram; ?> "><i class="ri-instagram-line"></i></a>
+                          <a class="single" href="<?php if ($lien_instagram =="") echo "javascript:void(0)"; else echo $lien_instagram; ?>"  target="<?php if ($lien_instagram =="") echo ""; else echo "_blank";?>"><i class="ri-instagram-line"></i></a>
                         </li>
                         <li class="single-list">
-                          <a class="single" href="<?php if ($lien_linkedin =="") echo "javascript:void(0)"; else echo $lien_linkedin; ?>"><i class="ri-linkedin-fill"></i></a>
+                          <a class="single" href="<?php if ($lien_linkedin =="") echo "javascript:void(0)"; else echo $lien_linkedin; ?>" target="<?php if ($lien_linkedin =="") echo ""; else echo "_blank";?>"><i class="ri-linkedin-fill"></i></a>
                         </li>
                       </ul>
                     </div>

@@ -46,6 +46,11 @@
                            <i class="ri-shield-check-line"></i>
                             <p class="pera">CRS-Guinée</p>
                         </li>
+                        <li class="single-list">
+                           <i class="ri-shield-check-line"></i>
+                            <p class="pera">Financier + s.  ACHAP </p>
+                        </li>
+                        
                     </ul>
                 </div>
               

@@ -49,13 +49,13 @@
                                   <div class="col-lg-4">
                                       <div class="contact-form mb-24">
                                           <label class="contact-label">Nom</label>
-                                          <input class="form-control contact-input" type="text" placeholder="e.g Abraham">
+                                          <input class="form-control contact-input" type="text" placeholder="Entrez votre nom">
                                       </div>
                                   </div>
                                   <div class="col-lg-4">
                                       <div class="contact-form mb-24">
                                           <label class="contact-label">Email</label>
-                                          <input class="form-control contact-input" type="email" placeholder="e.g example@gmail.com">
+                                          <input class="form-control contact-input" type="email" placeholder="Entrez votre email">
                                       </div>
                                   </div>
                                   <div class="col-lg-4">
